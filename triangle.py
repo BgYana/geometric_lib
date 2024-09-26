@@ -1,5 +1,21 @@
-def area(a, h): 
-    return a * h / 2 
+def area(a: float, h: float) -> float:
+    """
+    Вычисляет площадь треугольника по основанию и высоте
 
-def perimeter(a, b, c): 
-    return a + b + c 
+    :param a: Сторона треугольника
+    :param h: Высота треугольника проведенная к данной стороне
+    :return: Площадь треугольника
+    """
+    return a * h / 2
+
+
+def perimeter(a: float, b: float, c: float) -> float:
+    """
+    Вычисляет периметр треугольника по трем сторонам
+
+    :param a: Сторона треугольника
+    :param b: Сторона треугольника
+    :param c: Сторона треугольника
+    :return: Периметр треугольника
+    """
+    return a + b + c

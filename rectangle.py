@@ -1,7 +1,20 @@
-def area(a, b): 
-    return a * b 
+def area(a: float, b: float) -> float:
+    """
+    Вычисляет площадь прямоугольника по двум сторонам.
 
-def perimeter(a, b): 
-    return 2* (a + b)
+    :param a: Ширина прямоугольника
+    :param b: Длина прямоугольника
+    :return: Площадь прямоугольника
+    """
+    return a * b
 
- 
+
+def perimeter(a: float, b: float) -> float:
+    """
+    Вычисляет периметр прямоугольника по двум сторонам.
+
+    :param a: Ширина прямоугольника
+    :param b: Длина прямоугольника
+    :return: Периметр прямоугольника
+    """
+    return 2 * (a + b)
